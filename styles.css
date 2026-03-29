@@ -229,18 +229,18 @@ h1 {
 
 .flag-row {
   display: inline-flex;
-  gap: 0.25rem;
-  font-size: 1.35rem;
+  align-items: center;
+  gap: 0.4rem;
   margin-bottom: 0.35rem;
-  transform-origin: left center;
-  animation: wave 2.4s ease-in-out infinite;
 }
 
-@keyframes wave {
-  0%, 100% { transform: rotate(0deg) translateY(0); }
-  25% { transform: rotate(-2deg) translateY(-1px); }
-  50% { transform: rotate(2deg) translateY(1px); }
-  75% { transform: rotate(-1deg) translateY(-1px); }
+.flag-row img {
+  width: 28px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #d5dfed;
+  object-fit: cover;
+  display: block;
 }
 
 .destinations-grid p { color: var(--muted); margin-bottom: 0; }
