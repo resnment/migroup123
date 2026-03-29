@@ -37,14 +37,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.95rem 0;
+  padding: 0.7rem 0;
 }
 
 .brand {
-  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  font-weight: 800;
-  letter-spacing: 0.2px;
+}
+
+.brand img {
+  width: clamp(180px, 30vw, 300px);
+  height: auto;
+  display: block;
 }
 
 nav a {
@@ -180,6 +185,19 @@ h1 {
   padding: 1rem;
 }
 
+.card-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8efff;
+  border: 1px solid #ccdaf5;
+  font-size: 1.25rem;
+  margin-bottom: 0.45rem;
+}
+
 .card h3 {
   margin-top: 0;
 }
@@ -207,6 +225,22 @@ h1 {
   border: 1px solid var(--border);
   border-radius: 14px;
   padding: 1rem;
+}
+
+.flag-row {
+  display: inline-flex;
+  gap: 0.25rem;
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+  transform-origin: left center;
+  animation: wave 2.4s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(-2deg) translateY(-1px); }
+  50% { transform: rotate(2deg) translateY(1px); }
+  75% { transform: rotate(-1deg) translateY(-1px); }
 }
 
 .destinations-grid p { color: var(--muted); margin-bottom: 0; }

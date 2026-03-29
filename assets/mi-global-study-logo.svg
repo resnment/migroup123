@@ -1,0 +1,24 @@
+<svg width="360" height="72" viewBox="0 0 360 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MI Global Study logo</title>
+  <desc id="desc">Blue graduation cap above a globe icon with MI text and MI GLOBAL STUDY wordmark</desc>
+  <defs>
+    <linearGradient id="cap" x1="16" y1="4" x2="52" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42A5F5"/>
+      <stop offset="1" stop-color="#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="8" y1="22" x2="56" y2="66" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F8FF"/>
+      <stop offset="1" stop-color="#DCE7F7"/>
+    </linearGradient>
+  </defs>
+  <polygon points="34,4 60,12 34,20 8,12" fill="url(#cap)"/>
+  <rect x="20" y="18" width="28" height="8" rx="2" fill="#0D47A1"/>
+  <circle cx="34" cy="44" r="22" fill="url(#globe)" stroke="#C6D6F0"/>
+  <path d="M22 36C24 31 28 28 34 28C40 28 44 31 46 36" stroke="#9EB6DA" stroke-width="2"/>
+  <path d="M22 52C24 57 28 60 34 60C40 60 44 57 46 52" stroke="#9EB6DA" stroke-width="2"/>
+  <path d="M34 23V65" stroke="#9EB6DA" stroke-width="2"/>
+  <path d="M16 44H52" stroke="#9EB6DA" stroke-width="2"/>
+  <path d="M27 51V37C27 33 29 31 33 31C36 31 38 33 38 37V51" stroke="#0D47A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 51V37C40 33 42 31 46 31C49 31 51 33 51 37V51" stroke="#0D47A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="48" fill="#062A75" font-size="34" font-weight="800" font-family="Inter, Arial, sans-serif">MI GLOBAL STUDY</text>
+</svg>
